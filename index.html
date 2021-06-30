@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Typing Test | Vikas Lalwani</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+			
+		<div id="startWindow">
+			<div class="modalBox">
+				<h1>Creating Coding Careers typing test</h1>
+				<img src="https://380706.smushcdn.com/2255718/wp-content/uploads/2021/03/CCC-logo.png?lossy=1&strip=1&webp=1" width="200" height="150" alt="CCClogo">
+				<p>This is a one minute typing test. The typing test will commence after pressing the "Start Test" button and beginning to write the first word.</p>
+				<button id="startButton">Start Test</button>
+			</div>
+		</div>
+
+		<div id="timer">
+		</div>
+
+		<div id="wrapper">
+
+		<div id="paraContainer">
+			<p id="testPara"></p>
+		</div>
+
+		​<textarea id="textArea" name="textarea" rows="5" cols="50" onPaste="return false" placeholder="Timer will only start after you begin typing."></textarea>
+
+		</div>
+
+		<div id="newTestWindow">
+			<div class="modalBox">
+				<h1>Time's Up!</h1>
+				<p id="finalScore"></p>
+				<button id="newTestButton">Click to try again!</button>
+			</div>
+		</div>
+
+	<script type="text/javascript" src="test.js"></script>
+	</body>
+<html>
